@@ -50,7 +50,21 @@ The script operates in a multi-stage listening process:
     tbt_path = r"D:\Trials\chunking" # Change this path
     subprocess.Popen(["code", tbt_path], shell=True)
     ```
+5. **Run at Startup (Background)**
 
+    Press Win + R, type:
+     ```sh
+    shell:startup
+ ```
+
+    Create a new shortcut with this target:
+ ```sh
+    "C:\Users\sudha\AppData\Local\Programs\Python\Python310\pythonw.exe" "D:\Trials\jarvis\jarvis.py"
+```
+
+    Use pythonw.exe (not python.exe) to avoid opening a terminal window.
+
+    Now Jarvis starts silently every time you log in.
 ## Usage
 
 Run the script from your terminal:
