@@ -55,12 +55,12 @@ The script operates in a multi-stage listening process:
     Press Win + R, type:
      ```sh
     shell:startup
- ```
+    ```
 
     Create a new shortcut with this target:
- ```sh
+     ```sh
     "C:\Users\sudha\AppData\Local\Programs\Python\Python310\pythonw.exe" "D:\Trials\jarvis\jarvis.py"
-```
+    ```
 
     Use pythonw.exe (not python.exe) to avoid opening a terminal window.
 
