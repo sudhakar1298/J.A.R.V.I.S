@@ -15,7 +15,7 @@ except ImportError:
     print("Install it with: pip install pvporcupine")
     sys.exit(1)
 
-PORCUPINE_ACCESS_KEY = "FvWMDPVZ48U3HQeBc9LjWP3jEZG7uqDFJL4qjwrtxWXoedhKCWactA=="
+PORCUPINE_ACCESS_KEY = "YOUR ACCESS KEY"
 
 
 class UnifiedLauncher:
